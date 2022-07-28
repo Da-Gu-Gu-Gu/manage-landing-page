@@ -30,7 +30,16 @@
   background-repeat: no-repeat;
 }
 
-@media(max-width:768px) {
+.aa{
+  filter: invert(100%) sepia(98%) saturate(9%) hue-rotate(161deg) brightness(101%) contrast(102%);
+}
+
+.ficon:hover{
+  cursor: pointer;
+  filter: invert(52%) sepia(32%) saturate(5705%) hue-rotate(338deg) brightness(98%) contrast(93%);
+}
+
+@media(max-width:996px){
   .menu-link{
     border-radius: 20px;
     text-align: center;
@@ -49,6 +58,10 @@
   .landbg{
     height: 110%;
   }
+}
+
+@media(max-width:768px) {
+  
 
   .intro-img{
     width: 70%;
